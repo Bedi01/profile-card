@@ -72,7 +72,7 @@ body {
 @media (max-width: 375px) {
   .profile-card {
     width: 90%;
-    padding: 30px;
+    padding: 25px;
   }
 
   .profile-card img {
@@ -97,7 +97,7 @@ body {
 @media (min-width: 1440px) {
   .profile-card {
     width: 350px;
-    padding: 30px;
+    padding: 25px;
   }
 
   .profile-card img {
