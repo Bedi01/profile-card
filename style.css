@@ -13,7 +13,8 @@ body {
   background-color: hsl(0, 0%, 12%);
   border-radius: 10px;
   padding: 25px;
-  width: 280px;
+  width: 90%; /* Use percentage to make it more responsive */
+  max-width: 280px; /* Maximum width for larger screens */
   text-align: center;
 }
 
@@ -66,4 +67,49 @@ body {
 
 .profile-card .buttons a:hover {
   background-color: hsl(75, 94%, 57%);
+}
+
+@media (max-width: 375px) {
+  .profile-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .profile-card h1 {
+    font-size: 18px;
+  }
+
+  .profile-card p {
+    font-size: 10px;
+  }
+
+  .profile-card .buttons a {
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .profile-card {
+    width: 25%;
+    max-width: none;
+  }
+
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-card h1 {
+    font-size: 24px;
+  }
+
+  .profile-card p {
+    font-size: 14px;
+  }
+
+  .profile-card .buttons a {
+    padding: 15px;
+    font-size: 14px;
+  }
 }
