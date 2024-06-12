@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   display: flex;
   justify-content: center;
@@ -13,8 +14,7 @@ body {
   background-color: hsl(0, 0%, 12%);
   border-radius: 10px;
   padding: 25px;
-  width: 90%; /* Use percentage to make it more responsive */
-  max-width: 280px; /* Maximum width for larger screens */
+  width: 280px;
   text-align: center;
 }
 
@@ -57,11 +57,11 @@ body {
   border: none;
   border-radius: 6px;
   padding: 12px;
-  margin: 7.5px 0;
+  margin: 6px 0;
   margin-left: 10px;
   margin-right: 10px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -71,8 +71,13 @@ body {
 
 @media (max-width: 375px) {
   .profile-card {
-    width: 100%;
+    width: 90%;
     padding: 20px;
+  }
+
+  .profile-card img {
+    width: 70px;
+    height: 70px;
   }
 
   .profile-card h1 {
@@ -91,8 +96,8 @@ body {
 
 @media (min-width: 1440px) {
   .profile-card {
-    width: 25%;
-    max-width: none;
+    width: 350px;
+    padding: 30px;
   }
 
   .profile-card img {
