@@ -67,12 +67,13 @@ body {
 
 .profile-card .buttons a:hover {
   background-color: hsl(75, 94%, 57%);
+  color: black;
 }
 
 @media (max-width: 375px) {
   .profile-card {
     width: 90%;
-    padding: 25px;
+    padding: 30px;
   }
 
   .profile-card img {
@@ -97,7 +98,7 @@ body {
 @media (min-width: 1440px) {
   .profile-card {
     width: 350px;
-    padding: 25px;
+    padding: 30px;
   }
 
   .profile-card img {
