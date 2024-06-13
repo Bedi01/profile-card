@@ -7,7 +7,6 @@ body {
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
-  padding: 10px;
 }
 
 .profile-card {
@@ -22,18 +21,18 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .profile-card h1 {
   font-size: 21px;
   font-weight: 550;
-  line-height: 1.2;
+  line-height: 65%;
 }
 
 .profile-card p {
   color: hsl(75, 94%, 57%);
-  margin-top: 10px;
+  margin-top: 0%;
   font-weight: 520;
   font-size: 12px;
   margin-bottom: 25px;
@@ -48,7 +47,6 @@ body {
 .profile-card .buttons {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
 }
 
 .profile-card .buttons a {
@@ -70,6 +68,7 @@ body {
   background-color: hsl(75, 94%, 57%);
   color: black;
 }
+
 
 @media (max-width: 375px), (min-width: 1440px) {
   .profile-card {
@@ -93,11 +92,5 @@ body {
   .profile-card .buttons a {
     padding: 15px;
     font-size: 14px;
-  }
-}
-
-@media (max-width: 375px) {
-  body {
-    padding: 20px;
   }
 }
