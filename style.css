@@ -7,14 +7,18 @@ body {
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .profile-card {
   background-color: hsl(0, 0%, 12%);
   border-radius: 10px;
   padding: 25px;
-  width: 280px;
+  width: 300px;
+  max-width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .profile-card img {
@@ -69,8 +73,7 @@ body {
   color: black;
 }
 
-
-@media (max-width: 375px), (min-width: 1440px) {
+@media (min-width: 1440px) {
   .profile-card {
     width: 350px;
     padding: 30px;
